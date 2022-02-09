@@ -6,7 +6,7 @@ body {
 
 hr {
     margin: 30px auto;
-    color: rgb(0, 0, 0);
+    color: rgb(250, 27, 27);
     width: 30%;
 }
 
@@ -33,6 +33,39 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: ;
+    flex-direction:space-evenly;
+    background-color: antiquewhite;
+}
+
+.container > .box{
+    text-align: center;
+}
+
+.container .card{
+    border: transparent;
+}
+.port-1{
+    flex-grow: 1;
+}
+
+.port-2{
+    flex-grow: 1;
+}
+
+.port-3{
+    flex-grow: 1;
+}
+
+.btn{
+    background-color: #ee753d;
+    background-image: linear-gradient(rgb(104, 68, 3), rgb(248, 170, 26));
+    border: transparent;
 }
 
 .header-content {
@@ -95,19 +128,46 @@ header {
     position: relative;
 }
 
-#sendbutton{
-    background-color: #f1c958;
-      border-style: solid;
-      border-color: rgb(36, 35, 35);
-      border-width: thin;
-      width: 450px;
-      height: 45px;
-      padding: 16px 32 px;
-      margin: 4px 2px;
-      color: black;
-      border-radius: 4px;
-      background-image: linear-gradient(#f8e42d );
-      margin-top: 10px;
+#button1 {
+    background-color: rgb(104, 68, 3);
+    width: 450px;
+    height: 45px;
+    padding: 16px 32 px;
+    margin: 4px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+#button1 {
+    background-image: linear-gradient(rgb(245, 191, 92), rgb(216, 120, 29));
+    border: transparent;
+}
+
+#button2 {
+  background-color: rgb(221, 217, 217);
+  border: 1px #aaaaaa;
+  padding: 10px 10px;
+  margin: 4px;
+  color: rgb(7, 7, 7);
+  border-radius: 4px;
+  height: 33px;  
+  margin-left: 150px;
+  text-align: center;
+  background-image: linear-gradient(rgb(245, 191, 92), rgb(216, 120, 29));
+}
+
+#message{
+    border-style: solid;
+    border-color: rgb(36, 35, 35);
+    border-width: thin;
+    width: 450px;
+    height: 250px;
+    padding: 16px 32 px;
+    margin: 4px 2px;
+    color: black;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: left;
+    
 }
 
 input[type=text] {
