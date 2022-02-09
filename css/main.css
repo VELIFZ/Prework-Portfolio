@@ -38,7 +38,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     align-items:center;
-    justify-content: ;
+    justify-content: center;
     flex-direction:space-evenly;
     background-color: antiquewhite;
 }
@@ -200,4 +200,15 @@ footer {
     text-align: center;
 }
 
+.card{
+    padding: 30px;
+}
 
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.p{
+    height: 100px;
+}
